@@ -73,7 +73,6 @@ a   {
 header  {
     position: relative;
 	height: 60px;
-	border: 1px solid red;
 }
 
 .header-inner 	{
@@ -104,13 +103,6 @@ main	{
 	align-items: center;
 }
 
-.right-container 	{
-	border: 1px solid yellow;
-}
-
-.left-container 	{
-	border: 1px solid blue;
-}
 
 .statement-text 	{
 	font-size: 5em;
@@ -139,11 +131,7 @@ main	{
 	font-weight: 700;
 }	
 
-/* .nav-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-} */
+
 
 
 .nav-container .top-container, .nav-container .bottom-container	{
@@ -156,102 +144,3 @@ main	{
 	margin: auto;
 	width: 100%;
 }
-
-/* nav     {
-    display: inline-block;
-}
-
-#logo   {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 200px;
-    padding-top: 15px;
-}
-
-ul   {
-    margin: 0;
-    padding: 0;
-    ;list-style-type: none;
-}
-
-ul li   {
-    display: inline-block;
-}
-
-ul li a     {
-    display: inline-block;
-    padding: 20px 15px;
-    margin-right: 3em;
-    color: grey;
-    font-weight: 500;
-
-}
-
-main    {
-    width: 85%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-
-.left-container 	{
-	margin-right: -4px;
-	width: 48%;
-	height: 100%;
-    text-align: center;
-    padding: 30px;
-}
-
-
-
-
-middle-container 	{
-	text-align: center;
-	margin: 0 auto;
-}
-
-.top-container 	{
-	margin-bottom:20px;
-}
-
-#features 	{
-	display: inline-block;
-	width: 49%;
-}
-
-#about 	{
-	display: inline-block;
-	width: 49%;
-}
-
-#services 	{
-	display: inline-block;
-	width: 33%;
-}
-
-#product 	{
-	display: inline-block;
-	width: 33%;
-}
-
-#vision 	{
-	display: inline-block;
-	width: 33%;
-}
-
-.box 	{
-	margin-bottom: 20px;
-}
-
-
-footer .bottom 	{
-	padding: 20px;
-	text-align: center;
-}
-
-footer    {
-    width: 85%;
-    margin: 0 auto;
-    padding: 20px;
-} */
