@@ -70,31 +70,66 @@ a   {
     text-decoration: none;
 }
 
+.container      {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 header  {
     position: relative;
 	height: 60px;
 }
 
 .header-inner 	{
+	width: 960px;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.header-inner ul 	{
+nav 	{
 	display: flex;
+	align-items: center;
 }
+
+nav ul 	{
+	display: flex;
+	align-items: center;
+}
+
+ul li a     {
+    display: inline-block;
+    padding: 20px 15px;
+    margin-right: 2em;
+    color: grey;
+    font-weight: 500;
+
+}
+
+#logo 	{
+	margin-right: 50px;
+}
+
+/* 
+
+nav 	{
+	display: flex;
+	align-items: center;
+}
+
+nav ul 	{
+	display: flex;
+	align-items: center;
+} */
 
 main	{
 	max-width: 960px;
-	border: 1px solid green;
 	margin: 0 auto;
 }
 
-.content-holder 	{
-	padding: 25px;
-	/* display: flex; */
-}
 
 .content-holder 	{
 	display: flex;
@@ -136,7 +171,7 @@ main	{
 
 .nav-container .top-container, .nav-container .bottom-container	{
 	display: flex;
-	padding: 15px;
+	padding: 25px;
 }
 
 .image-container img	{
@@ -144,3 +179,77 @@ main	{
 	margin: auto;
 	width: 100%;
 }
+
+footer 	{
+	display: flex;
+	flex-direction: column;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+footer .bottom 	{
+	text-align: center;
+}
+
+
+.company-business .services 	{
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.company-business .business-item-container 	{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.company-business .business-item-container .company-business-item 	{
+	padding: 20px;
+	border: 1px solid #222;
+	background-color: #eee;
+	margin-bottom: 15px;
+
+
+}
+
+.ctn-1 	{
+	border: 1px solid #222;
+	margin-top: 10px;
+	background-color: #fff;
+	display: block;
+	width: 140px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.company-facts 	{
+	display: flex;
+}
+
+.facts-text ul 	{
+	margin-top: 20px;
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.p-20 	{
+	padding: 20px;
+}
+
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 760px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
