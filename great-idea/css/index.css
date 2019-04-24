@@ -201,7 +201,7 @@ footer .bottom 	{
 .company-business .business-item-container 	{
 	padding: 10px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	
 }
 
@@ -210,6 +210,7 @@ footer .bottom 	{
 	border: 1px solid #222;
 	background-color: #eee;
 	margin-bottom: 15px;
+	width: 48%;
 
 
 }
